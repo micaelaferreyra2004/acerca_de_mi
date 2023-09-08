@@ -1,0 +1,78 @@
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    min-height: 100px;
+    transition: background-color 0.3s ease;
+}
+header,#info-personal, #habilidades {
+    color: #fd0094; /* Color de texto principal */
+    font-family: Arial, sans-serif; /* Fuente de texto */
+    font-size: 16px; /* Tamaño de fuente predeterminado */
+}
+
+#info-personal, #habilidades
+
+#info-personal, #habilidades {
+    color: aqua;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #5e5e5e;
+    margin-bottom: 30px; /* Separación entre subsecciones */
+    box-shadow: 0 2px 4px rgba(53, 151, 82, 0.1); /* Sombra suave */
+}
+#info-personal {
+    background-color: #000000; /* Color de fondo de la subsección info-personal */
+    transition: background-color 0.3s ease;
+}
+
+body {
+    background-color: #000000; /* Color de fondo de toda la página */
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    background-color: #000000;
+    color: #099dff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #fffefe; /* Borde superior para separar el pie de página */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+}
+@media only screen and (max-width: 600px) {
+    /* Podemos ajustar el padding del encabezado y las subsecciones */
+    header, #info-personal, #habilidades {
+    padding: 10px;
+    }
+    /* Y también cambiar el tamaño de la fuente del título */
+    h1, h2 {
+    font-size: 18px;
+    }
+    }
+    /* Estilos para pantallas medianas (tabletas) */
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Aquí podríamos mantener el padding del encabezado y las
+    subsecciones igual */
+    header, #info-personal, #habilidades {
+    padding: 20px;
+    }
+    /* Pero quizás queremos que los títulos sean un poco más grandes que
+    en móviles pero menores que en desktop */
+    h1, h2 {
+    font-size: 22px;
+    }
+    }
+    @media only screen and (min-width: 1025px) {
+        /* Aquí podríamos aumentar el padding del encabezado y las
+        subsecciones */
+        header, #info-personal, #habilidades {
+        padding: 30px;
+        }
+        /* Y hacer que los títulos sean más grandes */
+        h1, h2 {
+        font-size: 28px;
+        }
+        }
